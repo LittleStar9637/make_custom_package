@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>1.5.0</version>
+    <authors>Meteoric, Inc.</authors>
+    <owners>In-App</owners>
+    <id>Xamarin.InAppBilling</id>
+    <title>Xamarin.InAppBilling</title>
+    <description>In-app Billing is a Google Play service that lets you sell a wide range digital content such as new game levels, downloadable media, or premium features directly from application. These purchases can either be recurring, automatically billed subscriptions.</description>
+  </metadata>
+
+  <files>
+    <file src="lib/android/Xamarin.InAppBilling.dll" target="lib/MonoAndroid10" />
+    <file src="lib/android/Xamarin.InAppBilling.xml" target="lib/MonoAndroid10" />
+  </files>
+</package>
